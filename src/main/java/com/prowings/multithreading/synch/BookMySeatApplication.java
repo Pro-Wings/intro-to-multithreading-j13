@@ -16,7 +16,7 @@ public class BookMySeatApplication extends Thread{
 		String threadName = Thread.currentThread().getName();
 		System.out.println(threadName + " initiated Seat Booking!!");
 
-		bookMySeats.bookSeats(threadName, seats);
+		BookMySeats.bookSeats(threadName, seats);
 		
 		System.out.println(threadName + " finished Seat Booking!!");
 		
